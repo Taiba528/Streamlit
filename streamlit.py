@@ -7,13 +7,7 @@ features=st.container()
 modelTraining=st.container()
 
 with header:
-    st.title('Welcome')
-    
-with dataset:
-    st.header('Butterfly_Project')
-    data=pd.read_excel('C:/Users/taiba.naz/All_Articles.xlsx')
-    #st.write(data.head())
-    
+    st.title('Welcome')  
 
 
 #adding a file uploader
